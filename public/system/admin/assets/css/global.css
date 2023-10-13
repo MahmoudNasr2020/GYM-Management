@@ -1,0 +1,165 @@
+.dataTables_length
+{
+    display: inline-block !important;
+    margin-top: 16px !important;
+}
+
+.dt-buttons {
+    display: block !important;
+}
+
+.dataTables_filter
+{
+    display: inline-block !important;
+    margin-top: 16px !important;
+    float: left !important;
+}
+
+.dataTables_info 
+{
+    float: left;
+}
+
+.table th 
+{
+    text-align: center !important;
+}
+
+.table td 
+{
+    text-align: center !important;
+}
+
+.dt-buttons
+{
+    width: 50% !important;
+}
+
+
+.dataTables_processing {
+    font-size: 10px !important;
+    padding: 10px !important;
+    position:absolute !important;
+    top: 50% !important;
+    left: 57% !important;
+    text-indent: -9999em !important;
+    width: 11em !important;
+    height: 11em !important;
+    border-radius: 50% !important;
+    background: #ffffff !important;
+    background: -moz-linear-gradient(left, #ffffff 10%, rgba(255, 255, 255, 0) 42%) !important;
+    background: -webkit-linear-gradient(left, #ffffff 10%, rgba(255, 255, 255, 0) 42%) !important;
+    background: -o-linear-gradient(left, #ffffff 10%, rgba(255, 255, 255, 0) 42%) !important;
+    background: -ms-linear-gradient(left, #ffffff 10%, rgba(255, 255, 255, 0) 42%) !important;
+    background: linear-gradient(to right, #ffffff 10%, rgba(255, 255, 255, 0) 42%) !important;
+    -webkit-animation: load3 1.4s infinite linear !important;
+    animation: load3 1.4s infinite linear !important;
+    -webkit-transform: translateZ(0) !important;
+    -ms-transform: translateZ(0) !important;
+    transform: translateZ(0) !important;
+  }
+  .dataTables_processing:before {
+    width: 50% !important;
+    height: 50% !important;
+    background: #d7dae7 !important;
+    border-radius: 100% 0 0 0 !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    content: '' !important;
+  }
+  .dataTables_processing:after {
+    width: 75% !important;
+    height: 75% !important;
+    border-radius: 50% !important;
+    content: '' !important;
+    margin: auto !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    bottom: 0 !important;
+    right: 0 !important;
+  }
+  
+  
+ 
+  @-webkit-keyframes load3 {
+    0% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  @keyframes load3 {
+    0% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  .loader {
+    animation: spin 1s infinite linear;
+    border: solid 2vmin transparent;
+    border-radius: 50%;
+    border-right-color: #09f;
+    border-top-color: #09f;
+    box-sizing: border-box;
+    height: 15vmin;
+    left: calc(40% - 10vmin);
+    position: fixed;
+    top: calc(84% - 10vmin);
+    width: 15vmin;
+    z-index: 1;
+    opacity:1 !important;
+
+    
+  }
+  .loader:before {
+    animation: spin 2s infinite linear;
+    border: solid 2vmin transparent;
+    border-radius: 50%;
+    border-right-color: #3cf;
+    border-top-color: #3cf;
+    box-sizing: border-box;
+    content: "";
+    height: 11vmin;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 11vmin;
+  }
+  .loader:after {
+    animation: spin 3s infinite linear;
+    border: solid 2vmin transparent;
+    border-radius: 50%;
+    border-right-color: #6ff;
+    border-top-color: #6ff;
+    box-sizing: border-box;
+    content: "";
+    height: 7vmin;
+    left: 2vmin;
+    position: absolute;
+    top: 2vmin;
+    width: 7vmin;
+  }
+
+  @keyframes spin {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  .form-control{
+    padding: 0.4rem 1rem !important;
+  }
+
+  .dataTables_paginate 
+  {
+    float: right !important;
+  }

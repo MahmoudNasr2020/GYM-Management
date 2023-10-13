@@ -1,0 +1,45 @@
+.box-primary {
+    border-top-color: #faa21c !important;
+    position: relative !important;
+    border-radius: 3px !important;
+    background: #ffffff !important;
+    border-top: 3px solid #a92c2d !important;
+    margin-bottom: 10px !important;
+    width: 100% !important;
+}
+.box-profile {
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 3px !important;
+    border-bottom-left-radius: 3px !important;
+    padding: 10px !important;
+}
+.student-show-img 
+{
+    height: 100px !important;
+    flex-shrink: 0 !important;
+    min-width: 100px !important;
+    min-height: 100px !important;
+    margin: 5px auto !important;
+    width: 100px !important;
+    padding: 3px !important;
+    border: 3px solid #d2d6de !important;
+    border-radius: 50% !important;
+    display: block !important;
+}
+.table-student-show {
+    margin-bottom: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    empty-cells: hide !important;
+    color: #444 !important;
+    background-color: transparent !important;
+    font-size: 11pt !important;
+    white-space: nowrap !important;
+}
+ 
+.pull-right
+{
+    float: left !important;
+}
+
